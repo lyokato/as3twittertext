@@ -1,0 +1,24 @@
+as3twittertext
+
+= Description
+
+This library is ActionScript 3.0 version of twitte-text library.
+See also original libraries
+
+http://engineering.twitter.com/2010/02/introducing-open-source-twitter-text.html
+
+Java: http://github.com/mzsanford/twitter-text-java
+Ruby: http://github.com/mzsanford/twitter-text-rb
+
+= Author
+
+Lyo Kato, <lyo.kato@gmail.com>
+
+= License
+
+MIT-License
+
+= Usage
+
+Most of interface is same as Java version of it.
+
