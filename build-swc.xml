@@ -1,0 +1,33 @@
+<!--
+ To build as3jcode.swc, use
+
+   compc -load-config=build-swc.xml
+   acompc -load-config=build-swc.xml
+
+ That is all.
+-->
+<flex-config>
+  <target-player>10.0.0</target-player>
+  <compiler>
+    <external-library-path>
+      <path-element>${flexlib}/libs/player/10/playerglobal.swc</path-element>
+    </external-library-path>
+    <source-path>
+      <path-element>src</path-element>
+    </source-path>
+  </compiler>
+  <include-classes>
+      <class>org.coderepos.text.twitter.Extractor</class>
+      <class>org.coderepos.text.twitter.Autolink</class>
+      <class>org.coderepos.text.twitter.Spaces</class>
+      <class>org.coderepos.text.twitter.Patterns</class>
+  </include-classes>
+  <metadata>
+    <creator>Lyo Kato</creator>
+    <description>http://github.com/lyokato/as3twittertext.git</description>
+    <language>EN</language>
+    <title>AS3 twitter-text extractor and auto-linker Library</title>
+  </metadata>
+  <output>bin/as3twittertext-1_0_0.swc</output>
+</flex-config>
+
